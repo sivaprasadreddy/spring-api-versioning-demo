@@ -1,0 +1,11 @@
+### GET search books using default version
+GET http://localhost:8080/api/books/search?q=007
+
+### GET search books using 1.0 version
+GET http://localhost:8080/api/books/search?q=007
+API-version: 1.0
+
+### GET search books using 2.0 version
+GET http://localhost:8080/api/books/search?q=007
+API-version: 2.0
+
