@@ -30,7 +30,7 @@ Accept: application/json
 
 ```shell
 GET /api/books
-Accept: application/json?ver=1.0
+Accept: application/json;ver=1.0
 ```
 
 **4. Path Segment**
